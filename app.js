@@ -67,6 +67,7 @@ const addCarrito = (e)=>{
     
     if(e.target.classList.contains('btn-dark')){
         setCarrito(e.target.parentElement)
+        window.scrollTo(0,99999)
         
     }
 
